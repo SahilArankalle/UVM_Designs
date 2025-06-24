@@ -1,0 +1,153 @@
+# vsim -vopt -voptargs="+acc" -c -do " log -r /* ;run -all; exit" -l test1.log -sv_seed random work.top 
+# Start time: 18:18:42 on Jun 24,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Sim-64
+# //  Version 2022.1_2 linux_x86_64 Apr  2 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.ram_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top(fast)
+# Loading /home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# Sv_Seed = 681898384
+#  log -r /* 
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# ----------------------------------------------------
+# Name         Type       Size  Value                 
+# ----------------------------------------------------
+# wr_xtnh      write_xtn  -     @466                  
+#   data       integral   64    'd57                  
+#   address    integral   12    'd187                 
+#   write      integral   1     'd0                   
+#   xtn_delay  integral   65    'd11750724406563985506
+#   xtn_type   addr_t     1     GOOD_XTN              
+# ----------------------------------------------------
+# --------------------------------------------------
+# Name         Type       Size  Value               
+# --------------------------------------------------
+# wr_xtnh      write_xtn  -     @470                
+#   data       integral   64    'd83                
+#   address    integral   12    'd1904              
+#   write      integral   1     'd0                 
+#   xtn_delay  integral   65    'd836702240885272097
+#   xtn_type   addr_t     1     BAD_XTN             
+# --------------------------------------------------
+# ---------------------------------------------------
+# Name         Type       Size  Value                
+# ---------------------------------------------------
+# wr_xtnh      write_xtn  -     @474                 
+#   data       integral   64    'd25                 
+#   address    integral   12    'd1904               
+#   write      integral   1     1                    
+#   xtn_delay  integral   65    'd1773949045697617895
+#   xtn_type   addr_t     1     BAD_XTN              
+# ---------------------------------------------------
+# ----------------------------------------------------
+# Name         Type       Size  Value                 
+# ----------------------------------------------------
+# wr_xtnh      write_xtn  -     @478                  
+#   data       integral   64    'd62                  
+#   address    integral   12    'd15                  
+#   write      integral   1     'd0                   
+#   xtn_delay  integral   65    'd12647784487241796162
+#   xtn_type   addr_t     1     GOOD_XTN              
+# ----------------------------------------------------
+# ----------------------------------------------------
+# Name         Type       Size  Value                 
+# ----------------------------------------------------
+# wr_xtnh      write_xtn  -     @482                  
+#   data       integral   64    'd29                  
+#   address    integral   12    'd56                  
+#   write      integral   1     1                     
+#   xtn_delay  integral   65    'd14521307594386954486
+#   xtn_type   addr_t     1     GOOD_XTN              
+# ----------------------------------------------------
+# ----------------------------------------------------
+# Name         Type       Size  Value                 
+# ----------------------------------------------------
+# wr_xtnh      short_xtn  -     @486                  
+#   data       integral   64    'd47                  
+#   address    integral   12    'd10                  
+#   write      integral   1     1                     
+#   xtn_delay  integral   65    'd13260213893846399412
+#   xtn_type   addr_t     1     GOOD_XTN              
+# ----------------------------------------------------
+# ---------------------------------------------------
+# Name         Type       Size  Value                
+# ---------------------------------------------------
+# wr_xtnh      short_xtn  -     @490                 
+#   data       integral   64    'd49                 
+#   address    integral   12    'd10                 
+#   write      integral   1     1                    
+#   xtn_delay  integral   65    'd9780980681713967273
+#   xtn_type   addr_t     1     GOOD_XTN             
+# ---------------------------------------------------
+# ---------------------------------------------------
+# Name         Type       Size  Value                
+# ---------------------------------------------------
+# wr_xtnh      short_xtn  -     @494                 
+#   data       integral   64    'd55                 
+#   address    integral   12    'd10                 
+#   write      integral   1     'd0                  
+#   xtn_delay  integral   65    'd7401003454568862672
+#   xtn_type   addr_t     1     GOOD_XTN             
+# ---------------------------------------------------
+# ----------------------------------------------------
+# Name         Type       Size  Value                 
+# ----------------------------------------------------
+# wr_xtnh      short_xtn  -     @498                  
+#   data       integral   64    'd52                  
+#   address    integral   12    'd10                  
+#   write      integral   1     1                     
+#   xtn_delay  integral   65    'd16555245602912113095
+#   xtn_type   addr_t     1     GOOD_XTN              
+# ----------------------------------------------------
+# ---------------------------------------------------
+# Name         Type       Size  Value                
+# ---------------------------------------------------
+# wr_xtnh      short_xtn  -     @502                 
+#   data       integral   64    'd26                 
+#   address    integral   12    'd10                 
+#   write      integral   1     'd0                  
+#   xtn_delay  integral   65    'd5321695637921601833
+#   xtn_type   addr_t     1     GOOD_XTN             
+# ---------------------------------------------------
+#  exit
+# End time: 18:18:45 on Jun 24,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
