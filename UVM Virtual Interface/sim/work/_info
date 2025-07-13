@@ -1,0 +1,231 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2022.1_2 2022.04, Apr  2 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home1/WBRN23/SSArankalle/VLSI_RN/UVM_LABS/Lab06/sim
+T_opt
+!s11d ram_test_pkg /home1/WBRN23/SSArankalle/VLSI_RN/UVM_LABS/Lab06/sim/work 1 ram_if 1 /home1/WBRN23/SSArankalle/VLSI_RN/UVM_LABS/Lab06/sim/work 
+!s110 1752393456
+VhL=0bMakT2C3g6MDh@3Zh0
+04 3 4 work top fast 0
+=1-208810b9d0a7-687366ef-cda2d-341ea7
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2022.1_2;75
+vdual_mem
+Z3 !s110 1752393454
+!i10b 1
+!s100 bbS3Oz5PLZK3a:Ceb[hDA3
+IY9V:n=MhOIlDb7cfb7D7J0
+R1
+Z4 w1723880886
+8../rtl/dual_mem.v
+F../rtl/dual_mem.v
+!i122 0
+L0 24 51
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2022.1_2;75
+r1
+!s85 0
+31
+Z7 !s108 1752393454.000000
+Z8 !s107 ../test/ram_vtest_lib.sv|../wr_agt_top/ram_wr_seqs.sv|../tb/ram_env.sv|../wr_agt_top/ram_wr_agent.sv|../wr_agt_top/ram_wr_sequencer.sv|../wr_agt_top/ram_wr_monitor.sv|../wr_agt_top/ram_wr_driver.sv|../wr_agt_top/ram_wr_agent_config.sv|../wr_agt_top/write_xtn.sv|../tb/tb_defs.sv|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|../tb/top.sv|../test/ram_test_pkg.sv|../rtl/ram_if.sv|../rtl/ram_chip.sv|../rtl/ram_4096.v|../rtl/mem_dec.v|../rtl/dual_mem.v|
+Z9 !s90 -work|work|../rtl/dual_mem.v|../rtl/mem_dec.v|../rtl/ram_4096.v|../rtl/ram_chip.sv|../rtl/ram_if.sv|+incdir+../tb|+incdir+../test|+incdir+../wr_agt_top|+incdir+../rd_agt_top|../test/ram_test_pkg.sv|../tb/top.sv|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -work work +incdir+../tb +incdir+../test +incdir+../wr_agt_top +incdir+../rd_agt_top -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmem_dec
+R3
+!i10b 1
+!s100 H7EzMT^[zzZ8N;cQ5AKb`0
+IjGBgZjSMmWzl3=i?8`zgn1
+R1
+R4
+8../rtl/mem_dec.v
+F../rtl/mem_dec.v
+!i122 0
+L0 24 26
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vram_4096
+R3
+!i10b 1
+!s100 8Cmi;Yhf[5Lhg@g<N[^T`0
+IofH3[RA3:5Z>h<IcOkFzj3
+R1
+R4
+8../rtl/ram_4096.v
+F../rtl/ram_4096.v
+!i122 0
+L0 27 91
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vram_chip
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R3
+!i10b 1
+!s100 0MZl^Pc2ZBVlSoQ[?dZO52
+InB^MTSfAYcKAh_OTSd67e2
+S1
+R1
+R4
+8../rtl/ram_chip.sv
+F../rtl/ram_chip.sv
+!i122 0
+L0 25 10
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+Yram_if
+R12
+R3
+!i10b 1
+!s100 Hz5>fZ`Zj?W2ef5f=dC892
+I>0XJ6NnKOTeNiDNQ>8k>l1
+S1
+R1
+R4
+8../rtl/ram_if.sv
+F../rtl/ram_if.sv
+!i122 0
+L0 28 0
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+Xram_test_pkg
+!s115 ram_if
+R12
+Z13 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+Z14 !s110 1752393455
+!i10b 1
+!s100 8[`]0L=]YbNTmcWV4RJ3@0
+IOR?O5Y[Sf_m5o^GBc:9OK1
+S1
+R1
+w1752393452
+8../test/ram_test_pkg.sv
+F../test/ram_test_pkg.sv
+Z15 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z16 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z17 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z18 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z19 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z20 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z21 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z22 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z23 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z24 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z25 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z26 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+F../tb/tb_defs.sv
+F../wr_agt_top/write_xtn.sv
+F../wr_agt_top/ram_wr_agent_config.sv
+F../wr_agt_top/ram_wr_driver.sv
+F../wr_agt_top/ram_wr_monitor.sv
+F../wr_agt_top/ram_wr_sequencer.sv
+F../wr_agt_top/ram_wr_agent.sv
+F../tb/ram_env.sv
+F../wr_agt_top/ram_wr_seqs.sv
+F../test/ram_vtest_lib.sv
+!i122 0
+L0 25 0
+VOR?O5Y[Sf_m5o^GBc:9OK1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
+vtop
+R12
+R13
+DXx4 work 12 ram_test_pkg 0 22 OR?O5Y[Sf_m5o^GBc:9OK1
+R14
+!i10b 1
+!s100 FJkIZOH=dVHQE[^3YQMiF2
+IQXkd4OT668FHMlOD?iZJo0
+S1
+R1
+w1752386985
+8../tb/top.sv
+F../tb/top.sv
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+R26
+!i122 0
+L0 24 6507
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R2
