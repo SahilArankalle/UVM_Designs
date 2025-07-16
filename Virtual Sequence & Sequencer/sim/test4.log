@@ -1,0 +1,628 @@
+# vsim -vopt -voptargs="+acc" -coverage -sva -c -do " log -r /* ;coverage save -onexit mem_cov4;run -all; exit" -wlf wave3.wlf -l test4.log -sv_seed random work.top "+UVM_TESTNAME=ram_even_addr_test" 
+# Start time: 01:36:56 on Jul 17,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Sim-64
+# //  Version 2022.1_2 linux_x86_64 Apr  2 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ram_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.ram_test_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top(fast)
+# Loading work.ram_if(fast__2)
+# Loading work.ram_chip(fast)
+# Loading work.ram_4096(fast)
+# Loading work.mem_dec(fast)
+# Loading work.dual_mem(fast)
+# Loading /home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# Sv_Seed = 2843327650
+#  log -r /* 
+# coverage save -onexit mem_cov4
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test ram_even_addr_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# ----------------------------------------------------------------
+# Name                         Type                    Size  Value
+# ----------------------------------------------------------------
+# uvm_test_top                 ram_even_addr_test      -     @474 
+#   ram_envh                   ram_tb                  -     @490 
+#     ragt_top                 ram_rd_agt_top          -     @513 
+#       agnth                  ram_rd_agent            -     @629 
+#         drvh                 ram_rd_driver           -     @645 
+#           rsp_port           uvm_analysis_port       -     @660 
+#           seq_item_port      uvm_seq_item_pull_port  -     @652 
+#         monh                 ram_rd_monitor          -     @638 
+#         seqrh                ram_rd_sequencer        -     @668 
+#           rsp_export         uvm_analysis_export     -     @675 
+#           seq_item_export    uvm_seq_item_pull_imp   -     @769 
+#           arbitration_queue  array                   0     -    
+#           lock_queue         array                   0     -    
+#           num_last_reqs      integral                32    'd1  
+#           num_last_rsps      integral                32    'd1  
+#     v_sequencer              ram_virtual_sequencer   -     @520 
+#       rsp_export             uvm_analysis_export     -     @527 
+#       seq_item_export        uvm_seq_item_pull_imp   -     @621 
+#       arbitration_queue      array                   0     -    
+#       lock_queue             array                   0     -    
+#       num_last_reqs          integral                32    'd1  
+#       num_last_rsps          integral                32    'd1  
+#     wagt_top                 ram_wr_agt_top          -     @502 
+#       agnth                  ram_wr_agent            -     @789 
+#         drvh                 ram_wr_driver           -     @805 
+#           rsp_port           uvm_analysis_port       -     @820 
+#           seq_item_port      uvm_seq_item_pull_port  -     @812 
+#         monh                 ram_wr_monitor          -     @798 
+#         seqrh                ram_wr_sequencer        -     @828 
+#           rsp_export         uvm_analysis_export     -     @835 
+#           seq_item_export    uvm_seq_item_pull_imp   -     @929 
+#           arbitration_queue  array                   0     -    
+#           lock_queue         array                   0     -    
+#           num_last_reqs      integral                32    'd1  
+#           num_last_rsps      integral                32    'd1  
+# ----------------------------------------------------------------
+# 
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# ----------------------------------------------------------------
+# Name                         Type                    Size  Value
+# ----------------------------------------------------------------
+# uvm_test_top                 ram_even_addr_test      -     @474 
+#   ram_envh                   ram_tb                  -     @490 
+#     ragt_top                 ram_rd_agt_top          -     @513 
+#       agnth                  ram_rd_agent            -     @629 
+#         drvh                 ram_rd_driver           -     @645 
+#           rsp_port           uvm_analysis_port       -     @660 
+#           seq_item_port      uvm_seq_item_pull_port  -     @652 
+#         monh                 ram_rd_monitor          -     @638 
+#         seqrh                ram_rd_sequencer        -     @668 
+#           rsp_export         uvm_analysis_export     -     @675 
+#           seq_item_export    uvm_seq_item_pull_imp   -     @769 
+#           arbitration_queue  array                   0     -    
+#           lock_queue         array                   0     -    
+#           num_last_reqs      integral                32    'd1  
+#           num_last_rsps      integral                32    'd1  
+#     v_sequencer              ram_virtual_sequencer   -     @520 
+#       rsp_export             uvm_analysis_export     -     @527 
+#       seq_item_export        uvm_seq_item_pull_imp   -     @621 
+#       arbitration_queue      array                   0     -    
+#       lock_queue             array                   0     -    
+#       num_last_reqs          integral                32    'd1  
+#       num_last_rsps          integral                32    'd1  
+#     wagt_top                 ram_wr_agt_top          -     @502 
+#       agnth                  ram_wr_agent            -     @789 
+#         drvh                 ram_wr_driver           -     @805 
+#           rsp_port           uvm_analysis_port       -     @820 
+#           seq_item_port      uvm_seq_item_pull_port  -     @812 
+#         monh                 ram_wr_monitor          -     @798 
+#         seqrh                ram_wr_sequencer        -     @828 
+#           rsp_export         uvm_analysis_export     -     @835 
+#           seq_item_export    uvm_seq_item_pull_imp   -     @929 
+#           arbitration_queue  array                   0     -    
+#           lock_queue         array                   0     -    
+#           num_last_reqs      integral                32    'd1  
+#           num_last_rsps      integral                32    'd1  
+# ----------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(106) @ 0: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] printing from driver 
+#  -----------------------------------------------------------------------------------------------------
+# Name                           Type       Size  Value                                                
+# -----------------------------------------------------------------------------------------------------
+# req                            write_xtn  -     @972                                                 
+#   begin_time                   time       64    0                                                    
+#   depth                        int        32    'd2                                                  
+#   parent sequence (name)       string     10    even_wxtns                                           
+#   parent sequence (full name)  string     53    uvm_test_top.ram_envh.wagt_top.agnth.seqrh.even_wxtns
+#   sequencer                    string     42    uvm_test_top.ram_envh.wagt_top.agnth.seqrh           
+#   data                         integral   64    'd53                                                 
+#   address                      integral   12    'd0                                                  
+#   write                        integral   -1    'd1                                                  
+#   xtn_delay                    integral   65    'd6018562771204535157                                
+#   xtn_type                     addr_t     1     GOOD_XTN                                             
+# -----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(107) @ 40: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] printing from monitor 
+#  --------------------------------------
+# Name         Type       Size  Value   
+# --------------------------------------
+# data_sent    write_xtn  -     @951    
+#   data       integral   64    'd53    
+#   address    integral   12    'd0     
+#   write      integral   -1    'd1     
+#   xtn_delay  integral   65    'd0     
+#   xtn_type   addr_t     1     GOOD_XTN
+# --------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(106) @ 150: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] printing from driver 
+#  -----------------------------------------------------------------------------------------------------
+# Name                           Type       Size  Value                                                
+# -----------------------------------------------------------------------------------------------------
+# req                            write_xtn  -     @1053                                                
+#   begin_time                   time       64    150                                                  
+#   depth                        int        32    'd2                                                  
+#   parent sequence (name)       string     10    even_wxtns                                           
+#   parent sequence (full name)  string     53    uvm_test_top.ram_envh.wagt_top.agnth.seqrh.even_wxtns
+#   sequencer                    string     42    uvm_test_top.ram_envh.wagt_top.agnth.seqrh           
+#   data                         integral   64    'd62                                                 
+#   address                      integral   12    'd2                                                  
+#   write                        integral   -1    'd1                                                  
+#   xtn_delay                    integral   65    'd17460305504804066051                               
+#   xtn_type                     addr_t     1     GOOD_XTN                                             
+# -----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(107) @ 200: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] printing from monitor 
+#  --------------------------------------
+# Name         Type       Size  Value   
+# --------------------------------------
+# data_sent    write_xtn  -     @1048   
+#   data       integral   64    'd62    
+#   address    integral   12    'd2     
+#   write      integral   -1    'd1     
+#   xtn_delay  integral   65    'd0     
+#   xtn_type   addr_t     1     GOOD_XTN
+# --------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(106) @ 310: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] printing from driver 
+#  -----------------------------------------------------------------------------------------------------
+# Name                           Type       Size  Value                                                
+# -----------------------------------------------------------------------------------------------------
+# req                            write_xtn  -     @1061                                                
+#   begin_time                   time       64    310                                                  
+#   depth                        int        32    'd2                                                  
+#   parent sequence (name)       string     10    even_wxtns                                           
+#   parent sequence (full name)  string     53    uvm_test_top.ram_envh.wagt_top.agnth.seqrh.even_wxtns
+#   sequencer                    string     42    uvm_test_top.ram_envh.wagt_top.agnth.seqrh           
+#   data                         integral   64    'd68                                                 
+#   address                      integral   12    'd4                                                  
+#   write                        integral   -1    'd1                                                  
+#   xtn_delay                    integral   65    'd11531239965408832242                               
+#   xtn_type                     addr_t     1     GOOD_XTN                                             
+# -----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(107) @ 360: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] printing from monitor 
+#  --------------------------------------
+# Name         Type       Size  Value   
+# --------------------------------------
+# data_sent    write_xtn  -     @1057   
+#   data       integral   64    'd68    
+#   address    integral   12    'd4     
+#   write      integral   -1    'd1     
+#   xtn_delay  integral   65    'd0     
+#   xtn_type   addr_t     1     GOOD_XTN
+# --------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(106) @ 470: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] printing from driver 
+#  -----------------------------------------------------------------------------------------------------
+# Name                           Type       Size  Value                                                
+# -----------------------------------------------------------------------------------------------------
+# req                            write_xtn  -     @1069                                                
+#   begin_time                   time       64    470                                                  
+#   depth                        int        32    'd2                                                  
+#   parent sequence (name)       string     10    even_wxtns                                           
+#   parent sequence (full name)  string     53    uvm_test_top.ram_envh.wagt_top.agnth.seqrh.even_wxtns
+#   sequencer                    string     42    uvm_test_top.ram_envh.wagt_top.agnth.seqrh           
+#   data                         integral   64    'd68                                                 
+#   address                      integral   12    'd6                                                  
+#   write                        integral   -1    'd1                                                  
+#   xtn_delay                    integral   65    'd7951775671097050404                                
+#   xtn_type                     addr_t     1     GOOD_XTN                                             
+# -----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(107) @ 520: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] printing from monitor 
+#  --------------------------------------
+# Name         Type       Size  Value   
+# --------------------------------------
+# data_sent    write_xtn  -     @1065   
+#   data       integral   64    'd68    
+#   address    integral   12    'd6     
+#   write      integral   -1    'd1     
+#   xtn_delay  integral   65    'd0     
+#   xtn_type   addr_t     1     GOOD_XTN
+# --------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(106) @ 630: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] printing from driver 
+#  -----------------------------------------------------------------------------------------------------
+# Name                           Type       Size  Value                                                
+# -----------------------------------------------------------------------------------------------------
+# req                            write_xtn  -     @1077                                                
+#   begin_time                   time       64    630                                                  
+#   depth                        int        32    'd2                                                  
+#   parent sequence (name)       string     10    even_wxtns                                           
+#   parent sequence (full name)  string     53    uvm_test_top.ram_envh.wagt_top.agnth.seqrh.even_wxtns
+#   sequencer                    string     42    uvm_test_top.ram_envh.wagt_top.agnth.seqrh           
+#   data                         integral   64    'd20                                                 
+#   address                      integral   12    'd8                                                  
+#   write                        integral   -1    'd1                                                  
+#   xtn_delay                    integral   65    'd8919026106789434189                                
+#   xtn_type                     addr_t     1     GOOD_XTN                                             
+# -----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(107) @ 680: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] printing from monitor 
+#  --------------------------------------
+# Name         Type       Size  Value   
+# --------------------------------------
+# data_sent    write_xtn  -     @1073   
+#   data       integral   64    'd20    
+#   address    integral   12    'd8     
+#   write      integral   -1    'd1     
+#   xtn_delay  integral   65    'd0     
+#   xtn_type   addr_t     1     GOOD_XTN
+# --------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(106) @ 790: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] printing from driver 
+#  -----------------------------------------------------------------------------------------------------
+# Name                           Type       Size  Value                                                
+# -----------------------------------------------------------------------------------------------------
+# req                            write_xtn  -     @1085                                                
+#   begin_time                   time       64    790                                                  
+#   depth                        int        32    'd2                                                  
+#   parent sequence (name)       string     10    even_wxtns                                           
+#   parent sequence (full name)  string     53    uvm_test_top.ram_envh.wagt_top.agnth.seqrh.even_wxtns
+#   sequencer                    string     42    uvm_test_top.ram_envh.wagt_top.agnth.seqrh           
+#   data                         integral   64    'd34                                                 
+#   address                      integral   12    'd10                                                 
+#   write                        integral   -1    'd1                                                  
+#   xtn_delay                    integral   65    'd2434599726584740469                                
+#   xtn_type                     addr_t     1     GOOD_XTN                                             
+# -----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(107) @ 840: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] printing from monitor 
+#  --------------------------------------
+# Name         Type       Size  Value   
+# --------------------------------------
+# data_sent    write_xtn  -     @1081   
+#   data       integral   64    'd34    
+#   address    integral   12    'd10    
+#   write      integral   -1    'd1     
+#   xtn_delay  integral   65    'd0     
+#   xtn_type   addr_t     1     GOOD_XTN
+# --------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(106) @ 950: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] printing from driver 
+#  -----------------------------------------------------------------------------------------------------
+# Name                           Type       Size  Value                                                
+# -----------------------------------------------------------------------------------------------------
+# req                            write_xtn  -     @1093                                                
+#   begin_time                   time       64    950                                                  
+#   depth                        int        32    'd2                                                  
+#   parent sequence (name)       string     10    even_wxtns                                           
+#   parent sequence (full name)  string     53    uvm_test_top.ram_envh.wagt_top.agnth.seqrh.even_wxtns
+#   sequencer                    string     42    uvm_test_top.ram_envh.wagt_top.agnth.seqrh           
+#   data                         integral   64    'd56                                                 
+#   address                      integral   12    'd12                                                 
+#   write                        integral   -1    'd1                                                  
+#   xtn_delay                    integral   65    'd797123459222547191                                 
+#   xtn_type                     addr_t     1     GOOD_XTN                                             
+# -----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(107) @ 1000: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] printing from monitor 
+#  --------------------------------------
+# Name         Type       Size  Value   
+# --------------------------------------
+# data_sent    write_xtn  -     @1089   
+#   data       integral   64    'd56    
+#   address    integral   12    'd12    
+#   write      integral   -1    'd1     
+#   xtn_delay  integral   65    'd0     
+#   xtn_type   addr_t     1     GOOD_XTN
+# --------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(106) @ 1110: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] printing from driver 
+#  -----------------------------------------------------------------------------------------------------
+# Name                           Type       Size  Value                                                
+# -----------------------------------------------------------------------------------------------------
+# req                            write_xtn  -     @1101                                                
+#   begin_time                   time       64    1110                                                 
+#   depth                        int        32    'd2                                                  
+#   parent sequence (name)       string     10    even_wxtns                                           
+#   parent sequence (full name)  string     53    uvm_test_top.ram_envh.wagt_top.agnth.seqrh.even_wxtns
+#   sequencer                    string     42    uvm_test_top.ram_envh.wagt_top.agnth.seqrh           
+#   data                         integral   64    'd36                                                 
+#   address                      integral   12    'd14                                                 
+#   write                        integral   -1    'd1                                                  
+#   xtn_delay                    integral   65    'd9721430260830750467                                
+#   xtn_type                     addr_t     1     GOOD_XTN                                             
+# -----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(107) @ 1160: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] printing from monitor 
+#  --------------------------------------
+# Name         Type       Size  Value   
+# --------------------------------------
+# data_sent    write_xtn  -     @1097   
+#   data       integral   64    'd36    
+#   address    integral   12    'd14    
+#   write      integral   -1    'd1     
+#   xtn_delay  integral   65    'd0     
+#   xtn_type   addr_t     1     GOOD_XTN
+# --------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(106) @ 1270: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] printing from driver 
+#  -----------------------------------------------------------------------------------------------------
+# Name                           Type       Size  Value                                                
+# -----------------------------------------------------------------------------------------------------
+# req                            write_xtn  -     @1109                                                
+#   begin_time                   time       64    1270                                                 
+#   depth                        int        32    'd2                                                  
+#   parent sequence (name)       string     10    even_wxtns                                           
+#   parent sequence (full name)  string     53    uvm_test_top.ram_envh.wagt_top.agnth.seqrh.even_wxtns
+#   sequencer                    string     42    uvm_test_top.ram_envh.wagt_top.agnth.seqrh           
+#   data                         integral   64    'd59                                                 
+#   address                      integral   12    'd16                                                 
+#   write                        integral   -1    'd1                                                  
+#   xtn_delay                    integral   65    'd3502251877981491255                                
+#   xtn_type                     addr_t     1     GOOD_XTN                                             
+# -----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(107) @ 1320: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] printing from monitor 
+#  --------------------------------------
+# Name         Type       Size  Value   
+# --------------------------------------
+# data_sent    write_xtn  -     @1105   
+#   data       integral   64    'd59    
+#   address    integral   12    'd16    
+#   write      integral   -1    'd1     
+#   xtn_delay  integral   65    'd0     
+#   xtn_type   addr_t     1     GOOD_XTN
+# --------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(106) @ 1430: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] printing from driver 
+#  -----------------------------------------------------------------------------------------------------
+# Name                           Type       Size  Value                                                
+# -----------------------------------------------------------------------------------------------------
+# req                            write_xtn  -     @1117                                                
+#   begin_time                   time       64    1430                                                 
+#   depth                        int        32    'd2                                                  
+#   parent sequence (name)       string     10    even_wxtns                                           
+#   parent sequence (full name)  string     53    uvm_test_top.ram_envh.wagt_top.agnth.seqrh.even_wxtns
+#   sequencer                    string     42    uvm_test_top.ram_envh.wagt_top.agnth.seqrh           
+#   data                         integral   64    'd45                                                 
+#   address                      integral   12    'd18                                                 
+#   write                        integral   -1    'd1                                                  
+#   xtn_delay                    integral   65    'd6409511164935375824                                
+#   xtn_type                     addr_t     1     GOOD_XTN                                             
+# -----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(107) @ 1480: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] printing from monitor 
+#  --------------------------------------
+# Name         Type       Size  Value   
+# --------------------------------------
+# data_sent    write_xtn  -     @1113   
+#   data       integral   64    'd45    
+#   address    integral   12    'd18    
+#   write      integral   -1    'd1     
+#   xtn_delay  integral   65    'd0     
+#   xtn_type   addr_t     1     GOOD_XTN
+# --------------------------------------
+# 
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(105) @ 1590: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] printing from driver 
+#  ----------------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                                
+# ----------------------------------------------------------------------------------------------------
+# req                            read_xtn  -     @1126                                                
+#   begin_time                   time      64    1590                                                 
+#   depth                        int       32    'd2                                                  
+#   parent sequence (name)       string    10    even_rxtns                                           
+#   parent sequence (full name)  string    53    uvm_test_top.ram_envh.ragt_top.agnth.seqrh.even_rxtns
+#   sequencer                    string    42    uvm_test_top.ram_envh.ragt_top.agnth.seqrh           
+#   data                         integral  64    'd1887071737178014488                                
+#   address                      integral  12    'd0                                                  
+#   read                         integral  -1    'd1                                                  
+#   xtn_delay                    integral  65    'd6437103466506135887                                
+#   xtn_type                     addr_t    1     GOOD_XTN                                             
+# ----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(105) @ 1830: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] printing from driver 
+#  ----------------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                                
+# ----------------------------------------------------------------------------------------------------
+# req                            read_xtn  -     @1135                                                
+#   begin_time                   time      64    1830                                                 
+#   depth                        int       32    'd2                                                  
+#   parent sequence (name)       string    10    even_rxtns                                           
+#   parent sequence (full name)  string    53    uvm_test_top.ram_envh.ragt_top.agnth.seqrh.even_rxtns
+#   sequencer                    string    42    uvm_test_top.ram_envh.ragt_top.agnth.seqrh           
+#   data                         integral  64    15973281994648846992                                 
+#   address                      integral  12    'd2                                                  
+#   read                         integral  -1    'd1                                                  
+#   xtn_delay                    integral  65    'd15821088600165837317                               
+#   xtn_type                     addr_t    1     GOOD_XTN                                             
+# ----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(105) @ 2070: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] printing from driver 
+#  ----------------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                                
+# ----------------------------------------------------------------------------------------------------
+# req                            read_xtn  -     @1143                                                
+#   begin_time                   time      64    2070                                                 
+#   depth                        int       32    'd2                                                  
+#   parent sequence (name)       string    10    even_rxtns                                           
+#   parent sequence (full name)  string    53    uvm_test_top.ram_envh.ragt_top.agnth.seqrh.even_rxtns
+#   sequencer                    string    42    uvm_test_top.ram_envh.ragt_top.agnth.seqrh           
+#   data                         integral  64    'd6238795369573819218                                
+#   address                      integral  12    'd4                                                  
+#   read                         integral  -1    'd1                                                  
+#   xtn_delay                    integral  65    'd9167273699225281140                                
+#   xtn_type                     addr_t    1     GOOD_XTN                                             
+# ----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(105) @ 2310: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] printing from driver 
+#  ----------------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                                
+# ----------------------------------------------------------------------------------------------------
+# req                            read_xtn  -     @1151                                                
+#   begin_time                   time      64    2310                                                 
+#   depth                        int       32    'd2                                                  
+#   parent sequence (name)       string    10    even_rxtns                                           
+#   parent sequence (full name)  string    53    uvm_test_top.ram_envh.ragt_top.agnth.seqrh.even_rxtns
+#   sequencer                    string    42    uvm_test_top.ram_envh.ragt_top.agnth.seqrh           
+#   data                         integral  64    12704700235871780737                                 
+#   address                      integral  12    'd1904                                               
+#   read                         integral  -1    'd1                                                  
+#   xtn_delay                    integral  65    'd11608799844809393635                               
+#   xtn_type                     addr_t    1     BAD_XTN                                              
+# ----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(105) @ 2550: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] printing from driver 
+#  ----------------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                                
+# ----------------------------------------------------------------------------------------------------
+# req                            read_xtn  -     @1159                                                
+#   begin_time                   time      64    2550                                                 
+#   depth                        int       32    'd2                                                  
+#   parent sequence (name)       string    10    even_rxtns                                           
+#   parent sequence (full name)  string    53    uvm_test_top.ram_envh.ragt_top.agnth.seqrh.even_rxtns
+#   sequencer                    string    42    uvm_test_top.ram_envh.ragt_top.agnth.seqrh           
+#   data                         integral  64    17773137776192225899                                 
+#   address                      integral  12    'd1904                                               
+#   read                         integral  -1    'd1                                                  
+#   xtn_delay                    integral  65    'd738615487791627637                                 
+#   xtn_type                     addr_t    1     BAD_XTN                                              
+# ----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(105) @ 2790: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] printing from driver 
+#  ----------------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                                
+# ----------------------------------------------------------------------------------------------------
+# req                            read_xtn  -     @1167                                                
+#   begin_time                   time      64    2790                                                 
+#   depth                        int       32    'd2                                                  
+#   parent sequence (name)       string    10    even_rxtns                                           
+#   parent sequence (full name)  string    53    uvm_test_top.ram_envh.ragt_top.agnth.seqrh.even_rxtns
+#   sequencer                    string    42    uvm_test_top.ram_envh.ragt_top.agnth.seqrh           
+#   data                         integral  64    'd8294655157595609829                                
+#   address                      integral  12    'd10                                                 
+#   read                         integral  -1    'd1                                                  
+#   xtn_delay                    integral  65    'd6670551072093121541                                
+#   xtn_type                     addr_t    1     GOOD_XTN                                             
+# ----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(105) @ 3030: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] printing from driver 
+#  ----------------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                                
+# ----------------------------------------------------------------------------------------------------
+# req                            read_xtn  -     @1175                                                
+#   begin_time                   time      64    3030                                                 
+#   depth                        int       32    'd2                                                  
+#   parent sequence (name)       string    10    even_rxtns                                           
+#   parent sequence (full name)  string    53    uvm_test_top.ram_envh.ragt_top.agnth.seqrh.even_rxtns
+#   sequencer                    string    42    uvm_test_top.ram_envh.ragt_top.agnth.seqrh           
+#   data                         integral  64    'd8608297069274816702                                
+#   address                      integral  12    'd12                                                 
+#   read                         integral  -1    'd1                                                  
+#   xtn_delay                    integral  65    'd2165788288518860047                                
+#   xtn_type                     addr_t    1     GOOD_XTN                                             
+# ----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(105) @ 3270: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] printing from driver 
+#  ----------------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                                
+# ----------------------------------------------------------------------------------------------------
+# req                            read_xtn  -     @1183                                                
+#   begin_time                   time      64    3270                                                 
+#   depth                        int       32    'd2                                                  
+#   parent sequence (name)       string    10    even_rxtns                                           
+#   parent sequence (full name)  string    53    uvm_test_top.ram_envh.ragt_top.agnth.seqrh.even_rxtns
+#   sequencer                    string    42    uvm_test_top.ram_envh.ragt_top.agnth.seqrh           
+#   data                         integral  64    17873892749881114016                                 
+#   address                      integral  12    'd14                                                 
+#   read                         integral  -1    'd1                                                  
+#   xtn_delay                    integral  65    'd5371108443438979918                                
+#   xtn_type                     addr_t    1     GOOD_XTN                                             
+# ----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(105) @ 3510: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] printing from driver 
+#  ----------------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                                
+# ----------------------------------------------------------------------------------------------------
+# req                            read_xtn  -     @1191                                                
+#   begin_time                   time      64    3510                                                 
+#   depth                        int       32    'd2                                                  
+#   parent sequence (name)       string    10    even_rxtns                                           
+#   parent sequence (full name)  string    53    uvm_test_top.ram_envh.ragt_top.agnth.seqrh.even_rxtns
+#   sequencer                    string    42    uvm_test_top.ram_envh.ragt_top.agnth.seqrh           
+#   data                         integral  64    11283689505359993869                                 
+#   address                      integral  12    'd16                                                 
+#   read                         integral  -1    'd1                                                  
+#   xtn_delay                    integral  65    'd2181595188334719729                                
+#   xtn_type                     addr_t    1     GOOD_XTN                                             
+# ----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(105) @ 3750: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] printing from driver 
+#  ----------------------------------------------------------------------------------------------------
+# Name                           Type      Size  Value                                                
+# ----------------------------------------------------------------------------------------------------
+# req                            read_xtn  -     @1199                                                
+#   begin_time                   time      64    3750                                                 
+#   depth                        int       32    'd2                                                  
+#   parent sequence (name)       string    10    even_rxtns                                           
+#   parent sequence (full name)  string    53    uvm_test_top.ram_envh.ragt_top.agnth.seqrh.even_rxtns
+#   sequencer                    string    42    uvm_test_top.ram_envh.ragt_top.agnth.seqrh           
+#   data                         integral  64    'd5690164629274291553                                
+#   address                      integral  12    'd18                                                 
+#   read                         integral  -1    'd1                                                  
+#   xtn_delay                    integral  65    'd17793177197542633867                               
+#   xtn_type                     addr_t    1     GOOD_XTN                                             
+# ----------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 3990: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ../rd_agt_top/ram_rd_driver.sv(133) @ 3990: uvm_test_top.ram_envh.ragt_top.agnth.drvh [RAM_RD_DRIVER] Total transactions driven = 10
+# UVM_INFO ../rd_agt_top/ram_rd_monitor.sv(129) @ 3990: uvm_test_top.ram_envh.ragt_top.agnth.monh [RAM_RD_MONITOR] Total transactions monitored = 10
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(136) @ 3990: uvm_test_top.ram_envh.wagt_top.agnth.drvh [RAM_WR_DRIVER] Total transactions driven = 10
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(120) @ 3990: uvm_test_top.ram_envh.wagt_top.agnth.monh [RAM_WR_MONITOR] Total transactions monitored = 10
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   40
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RAM_RD_DRIVER]    11
+# [RAM_RD_MONITOR]     1
+# [RAM_WR_DRIVER]    11
+# [RAM_WR_MONITOR]    11
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     2
+# ** Note: $finish    : /home/cad/eda/Mentor_Graphics/Questasim/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 3990 ns  Iteration: 67  Instance: /top
+# Saving coverage database on exit...
+# End time: 01:37:00 on Jul 17,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 2
