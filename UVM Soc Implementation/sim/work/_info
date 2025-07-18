@@ -1,0 +1,258 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home1/WBRN23/SSArankalle/VLSI_RN/UVM_LABS/Lab09/sim
+T_opt
+!s11d ram_test_pkg /home1/WBRN23/SSArankalle/VLSI_RN/UVM_LABS/Lab09/sim/work 1 ram_if 1 /home1/WBRN23/SSArankalle/VLSI_RN/UVM_LABS/Lab09/sim/work 
+!s110 1752829975
+VCIGXECHT_526fd@ID;fhB2
+04 3 4 work top fast 0
+=1-208810b9d0a7-687a1016-a483f-133ba8
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2022.1_2;75
+R1
+vdual_mem
+Z3 !s110 1752829979
+!i10b 1
+!s100 ^R]TSPXP=GKV]nHG0@CJP0
+I>JLUA7S1b52Z8H:Pf;m]O3
+R1
+Z4 w1723880886
+8../rtl/dual_mem.v
+F../rtl/dual_mem.v
+!i122 5
+L0 20 51
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2022.1_2;75
+r1
+!s85 0
+31
+Z7 !s108 1752829979.000000
+!s107 ../test/ram_vtest_lib.sv|../tb/ram_tb.sv|../tb/ram_scoreboard.sv|../tb/ram_virtual_seqs.sv|../tb/ram_virtual_sequencer.sv|../rd_agt_top/ram_rd_agt_top.sv|../rd_agt_top/ram_rd_agent.sv|../rd_agt_top/ram_rd_driver.sv|../rd_agt_top/ram_rd_seqs.sv|../rd_agt_top/ram_rd_sequencer.sv|../rd_agt_top/ram_rd_monitor.sv|../rd_agt_top/read_xtn.sv|../wr_agt_top/ram_wr_seqs.sv|../wr_agt_top/ram_wr_agt_top.sv|../wr_agt_top/ram_wr_agent.sv|../wr_agt_top/ram_wr_sequencer.sv|../wr_agt_top/ram_wr_monitor.sv|../wr_agt_top/ram_wr_driver.sv|../tb/ram_env_config.sv|../rd_agt_top/ram_rd_agent_config.sv|../wr_agt_top/ram_wr_agent_config.sv|../wr_agt_top/write_xtn.sv|../tb/tb_defs.sv|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|../tb/top.sv|../test/ram_test_pkg.sv|../rtl/ram_soc.sv|../rtl/ram_if.sv|../rtl/ram_chip.sv|../rtl/ram_4096.v|../rtl/mem_dec.v|../rtl/dual_mem.v|
+Z8 !s90 -work|work|../rtl/dual_mem.v|../rtl/mem_dec.v|../rtl/ram_4096.v|../rtl/ram_chip.sv|../rtl/ram_if.sv|../rtl/ram_soc.sv|+incdir+../tb|+incdir+../test|+incdir+../wr_agt_top|+incdir+../rd_agt_top|../test/ram_test_pkg.sv|../tb/top.sv|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -work work +incdir+../tb +incdir+../test +incdir+../wr_agt_top +incdir+../rd_agt_top -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmem_dec
+R3
+!i10b 1
+!s100 Ol>i?XWz9Q5<Z3CMn[gKR1
+IoC@3Mh@`KBiC^mBISV`Gf3
+R1
+R4
+8../rtl/mem_dec.v
+F../rtl/mem_dec.v
+!i122 5
+L0 20 26
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 ../test/ram_vtest_lib.sv|../tb/ram_tb.sv|../tb/ram_scoreboard.sv|../tb/ram_virtual_seqs.sv|../tb/ram_virtual_sequencer.sv|../rd_agt_top/ram_rd_agt_top.sv|../rd_agt_top/ram_rd_agent.sv|../rd_agt_top/ram_rd_driver.sv|../rd_agt_top/ram_rd_seqs.sv|../rd_agt_top/ram_rd_sequencer.sv|../rd_agt_top/ram_rd_monitor.sv|../rd_agt_top/read_xtn.sv|../wr_agt_top/ram_wr_seqs.sv|../wr_agt_top/ram_wr_agt_top.sv|../wr_agt_top/ram_wr_agent.sv|../wr_agt_top/ram_wr_sequencer.sv|../wr_agt_top/ram_wr_monitor.sv|../wr_agt_top/ram_wr_driver.sv|../tb/ram_env_config.sv|../rd_agt_top/ram_rd_agent_config.sv|../wr_agt_top/ram_wr_agent_config.sv|../wr_agt_top/write_xtn.sv|../tb/tb_defs.sv|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|../tb/top.sv|../test/ram_test_pkg.sv|../rtl/ram_soc.sv|../rtl/ram_if.sv|../rtl/ram_chip.sv|../rtl/ram_4096.v|../rtl/mem_dec.v|../rtl/dual_mem.v|
+R8
+!i113 0
+R9
+R10
+R2
+vram_4096
+R3
+!i10b 1
+!s100 F9=2=B@mG66IdNT^Q^8W[3
+I@]b:LB6AoK5]6P5gV3NEk2
+R1
+R4
+8../rtl/ram_4096.v
+F../rtl/ram_4096.v
+!i122 5
+L0 23 91
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+R2
+vram_chip
+Z12 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R3
+!i10b 1
+!s100 Win1KKk0o8ZIM:9GW8AiV3
+IUFGPf2CHQ@5?m`bP8VQi@3
+S1
+R1
+R4
+8../rtl/ram_chip.sv
+F../rtl/ram_chip.sv
+!i122 5
+L0 23 10
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+R2
+Yram_if
+R12
+R3
+!i10b 1
+!s100 WBdbk]A;ilbXWTfi5U[j[1
+IW@O;hBNaLdP`QLlhM4^0o1
+S1
+R1
+R4
+8../rtl/ram_if.sv
+F../rtl/ram_if.sv
+!i122 5
+L0 26 0
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+R2
+vram_soc
+R12
+R3
+!i10b 1
+!s100 02fzYSHe7;Y>_fLJCb<jz2
+I]gc=Yi8QYHJeQdWQY2`;02
+S1
+R1
+R4
+8../rtl/ram_soc.sv
+F../rtl/ram_soc.sv
+!i122 5
+L0 22 11
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+R2
+Xram_test_pkg
+!s115 ram_if
+R12
+Z13 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+Z14 !s110 1752829980
+!i10b 1
+!s100 0FO42mSdPeSFEb<>kdJJ11
+I9CT8nAQKD^812`b:ABo1M2
+S1
+R1
+w1752829968
+8../test/ram_test_pkg.sv
+F../test/ram_test_pkg.sv
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+F../tb/tb_defs.sv
+F../wr_agt_top/write_xtn.sv
+F../wr_agt_top/ram_wr_agent_config.sv
+F../rd_agt_top/ram_rd_agent_config.sv
+F../tb/ram_env_config.sv
+F../wr_agt_top/ram_wr_driver.sv
+F../wr_agt_top/ram_wr_monitor.sv
+F../wr_agt_top/ram_wr_sequencer.sv
+F../wr_agt_top/ram_wr_agent.sv
+F../wr_agt_top/ram_wr_agt_top.sv
+F../wr_agt_top/ram_wr_seqs.sv
+F../rd_agt_top/read_xtn.sv
+F../rd_agt_top/ram_rd_monitor.sv
+F../rd_agt_top/ram_rd_sequencer.sv
+F../rd_agt_top/ram_rd_seqs.sv
+F../rd_agt_top/ram_rd_driver.sv
+F../rd_agt_top/ram_rd_agent.sv
+F../rd_agt_top/ram_rd_agt_top.sv
+F../tb/ram_virtual_sequencer.sv
+F../tb/ram_virtual_seqs.sv
+F../tb/ram_scoreboard.sv
+F../tb/ram_tb.sv
+F../test/ram_vtest_lib.sv
+!i122 5
+L0 21 0
+V9CT8nAQKD^812`b:ABo1M2
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+R2
+vtop
+R12
+R13
+DXx4 work 12 ram_test_pkg 0 22 9CT8nAQKD^812`b:ABo1M2
+R14
+!i10b 1
+!s100 3VA01SZC4`HG4<cG`GI>i2
+I`=WXdZJb@RPe^M9T]2Y[Q0
+S1
+R1
+w1752819524
+8../tb/top.sv
+F../tb/top.sv
+!i122 5
+L0 22 45
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+R2
