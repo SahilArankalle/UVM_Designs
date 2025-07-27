@@ -1,0 +1,258 @@
+global coverage_group 0 ram_test_pkg::ram_scoreboard::ram_fcov1 __coverage_ram_scoreboard.ram_fcov1 unused_ram_scoreboard_ram_fcov1_loop_label ram_test_pkg 0 1 0 0 0  ( 0 
+)
+ 1 1
+ 0 76 /home1/WBRN23/SSArankalle/VLSI_RN/UVM_LABS/Lab10/sim/../tb/ram_scoreboard.sv
+ 64 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_1d
+0
+0
+0
+64
+0
+ 0
+
+3
+0
+1
+0
+ 6 WR_ADD 68 0 0 0 0 0 56 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn 56 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 12 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 10 1 1 0 0 1 1 3 low 69 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_0 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_1 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid1 70 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_2 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_3 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid2 71 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_4 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_5 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid3 72 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_6 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_7 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid4 73 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_8 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_9 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid5 74 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_a 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_b 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid6 75 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_c 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_d 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid7 76 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_e 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_f 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid8 77 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_10 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_11 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 high 78 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_12 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_13 0 0 0 0 0
+ 0
+
+ 4 DATA 82 0 0 0 0 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_14 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_14 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 64 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 0 1 1 3 low 83 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_0 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_15 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid1 84 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_16 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_17 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid2 85 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_18 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_19 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 high 86 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_1a 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_19 0 0 0 0 0
+ 0
+
+ 2 WR 90 0 0 0 0 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_1b 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_1b 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 6 wr_bin 91 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov1_fn_1c 0 0 0 0 0 0 0
+ 0
+
+ 8 WRITE_FC 0 96 0 0 -1 0 0 0 0 3 2 0 1 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group
+global coverage_group 0 ram_test_pkg::ram_scoreboard::ram_fcov2 __coverage_ram_scoreboard.ram_fcov2 unused_ram_scoreboard_ram_fcov2_loop_label ram_test_pkg 0 1 0 0 0  ( 0 
+)
+ 0 101 0 0 0 1 0 0 0 0  1
+0
+0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_1d
+0
+0
+0
+64
+0
+ 0
+
+3
+0
+1
+0
+ 6 RD_ADD 104 0 0 0 0 0 56 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn 56 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 12 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 10 1 1 0 0 1 1 3 low 105 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_0 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_1 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid1 106 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_2 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_3 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid2 107 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_4 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_5 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid3 108 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_6 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_7 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid4 109 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_8 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_9 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid5 110 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_a 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_b 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid6 111 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_c 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_d 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid7 112 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_e 0 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_f 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid8 113 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_10 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_11 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 high 114 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_12 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_13 0 0 0 0 0
+ 0
+
+ 4 DATA 118 0 0 0 0 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_14 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_14 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 64 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 4 1 1 0 0 1 1 3 low 119 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 58 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_0 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_15 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid1 120 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_16 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_17 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 mid2 121 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_18 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_19 0 0 0 0 0
+ 0
+ 1 1 0 0 1 1 4 high 122 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_1a 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_19 0 0 0 0 0
+ 0
+
+ 2 RD 126 0 0 0 0 0 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_1b 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_1b 0 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 0 -1 2 1 0 0 1 0 0 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 1 1 1 0 0 1 1 6 rd_bin 127 0 0 1 0 0 0 0 0 0 0 0 0 0 -1 0 0 -1 0 0 1 1 1 59 ram_scoreboard::ram_test_pkg_ram_scoreboard_ram_fcov2_fn_1c 0 0 0 0 0 0 0
+ 0
+
+ 7 READ_FC 0 131 0 0 -1 0 0 0 0 3 2 0 1 -1 0 0 0
+ 0
+ 0
+ 0
+ 0 0
+ 0 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+ 0
+end_coverage_group

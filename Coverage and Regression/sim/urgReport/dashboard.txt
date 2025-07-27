@@ -1,0 +1,21 @@
+Dashboard
+
+Date: Sat Jul 26 23:32:37 2025
+
+User: SSArankalle
+
+Version: T-2022.06-SP1
+Command line: urg -dir mem_cov1.vdb mem_cov2.vdb mem_cov3.vdb mem_cov4.vdb -dbname merged_dir/merged_test -format both -report urgReport
+Number of tests: 4
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+ 40.00  40.00 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+ 40.00  39.58     1      
+

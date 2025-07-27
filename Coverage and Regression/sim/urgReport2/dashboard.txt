@@ -1,0 +1,21 @@
+Dashboard
+
+Date: Sat Jul 26 23:32:33 2025
+
+User: SSArankalle
+
+Version: T-2022.06-SP1
+Command line: urg -dir mem_cov2.vdb -format both -report urgReport2
+Number of tests: 1
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+ 40.00  40.00 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+ 40.00  37.92     1      
+
