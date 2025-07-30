@@ -67,7 +67,7 @@ function void ram_wr_agent::build_phase(uvm_phase phase);
 	// Call parent build phase
 	super.build_phase(phase);
    // get the config object using uvm_config_db bit
-	if (!uvm_config_db#(bit)::get(this, "", "is_active", is_active))
+	if (!uvm_config_db#(bit)::get(this, "", "bit", is_active))
 		`uvm_fatal("CFG_ERR", "Failed to get is_active from uvm_config_db")
 	// Create ram_wr_monitor instance	
 	monh = ram_wr_monitor::type_id::create("monh", this);

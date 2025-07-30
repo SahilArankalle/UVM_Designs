@@ -30,9 +30,9 @@ Version			:	1.0
    // Factory Registration
 	`uvm_component_utils(ram_wr_agt_top)
 	// Declare a variable no_of_agents of int data type to get the configuration
-    
+    int no_of_agents;
    // Declare the dynamic array of agent handles
-   
+   ram_wr_agent agnth[];
 //------------------------------------------
 // METHODS
 //------------------------------------------
@@ -51,13 +51,15 @@ Version			:	1.0
     
 //-----------------  build() phase method  -------------------//
        	function void ram_wr_agt_top::build_phase(uvm_phase phase);
+		super.build_phase(phase);
 		//Get the configuration from the config_db "int"
-		
-     		super.build_phase(phase);
+        if(!uvm_config_db #(int)::get(this,"*", "no_of_agents", no_of_agents))
+		`uvm_fatal("no_of_agents","cannot get()no_of_agents from uvm_config_db. Have you set() it?")		
 		// Give the size for the agnth array as equal to no_of_agents
-	
+	    agnth = new[no_of_agents];
        // Create the instance of ram_wr_agent within foreach loop
-		
+	   foreach(agnth[i])
+		agnth[i]=ram_wr_agent::type_id::create($sformatf("agnth[%0d]",i),this);
 		//set first two agents as active & third agent as passive in to config data base "bit"
 		
 		for(int i=0;i<2;i++)

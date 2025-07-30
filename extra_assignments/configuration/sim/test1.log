@@ -1,5 +1,5 @@
 # vsim -vopt -voptargs="+acc" -coverage -sva -c -do " log -r /* ;coverage save -onexit mem_cov1;run -all; exit" -l test1.log -sv_seed random work.top "+UVM_TESTNAME=ram_base_test" 
-# Start time: 22:16:36 on Jul 12,2025
+# Start time: 21:17:02 on Jul 30,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
 # ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
@@ -24,7 +24,7 @@
 # Loading work.top(fast)
 # Loading /home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
 # ** Warning: (vsim-8634) Code was not compiled with coverage options.
-# Sv_Seed = 2633735817
+# Sv_Seed = 219424737
 #  log -r /* 
 # coverage save -onexit mem_cov1
 # run -all
@@ -52,19 +52,50 @@
 # UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
 # UVM_INFO @ 0: reporter [RNTST] Running test ram_base_test...
 # UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
-# ----------------------------------------------
-# Name               Type            Size  Value
-# ----------------------------------------------
-# uvm_test_top       ram_base_test   -     @466 
-#   ram_envh         ram_env         -     @476 
-#     ram_wr_agt_th  ram_wr_agt_top  -     @483 
-# ----------------------------------------------
+# ----------------------------------------------------------------
+# Name                         Type                    Size  Value
+# ----------------------------------------------------------------
+# uvm_test_top                 ram_base_test           -     @466 
+#   ram_envh                   ram_env                 -     @476 
+#     ram_wr_agt_th            ram_wr_agt_top          -     @483 
+#       agnth[0]               ram_wr_agent            -     @491 
+#         drvh                 ram_wr_driver           -     @527 
+#           rsp_port           uvm_analysis_port       -     @542 
+#           seq_item_port      uvm_seq_item_pull_port  -     @534 
+#         monh                 ram_wr_monitor          -     @520 
+#         seqrh                ram_wr_sequencer        -     @550 
+#           rsp_export         uvm_analysis_export     -     @557 
+#           seq_item_export    uvm_seq_item_pull_imp   -     @651 
+#           arbitration_queue  array                   0     -    
+#           lock_queue         array                   0     -    
+#           num_last_reqs      integral                32    'd1  
+#           num_last_rsps      integral                32    'd1  
+#       agnth[1]               ram_wr_agent            -     @498 
+#         drvh                 ram_wr_driver           -     @673 
+#           rsp_port           uvm_analysis_port       -     @688 
+#           seq_item_port      uvm_seq_item_pull_port  -     @680 
+#         monh                 ram_wr_monitor          -     @666 
+#         seqrh                ram_wr_sequencer        -     @696 
+#           rsp_export         uvm_analysis_export     -     @703 
+#           seq_item_export    uvm_seq_item_pull_imp   -     @797 
+#           arbitration_queue  array                   0     -    
+#           lock_queue         array                   0     -    
+#           num_last_reqs      integral                32    'd1  
+#           num_last_rsps      integral                32    'd1  
+#       agnth[2]               ram_wr_agent            -     @505 
+#         monh                 ram_wr_monitor          -     @812 
+# ----------------------------------------------------------------
 # 
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(51) @ 0: uvm_test_top.ram_envh.ram_wr_agt_th.agnth[2].monh [ram_wr_monitor] THIS IS MONITOR IN RUN
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(51) @ 0: uvm_test_top.ram_envh.ram_wr_agt_th.agnth[1].monh [ram_wr_monitor] THIS IS MONITOR IN RUN
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(59) @ 0: uvm_test_top.ram_envh.ram_wr_agt_th.agnth[1].drvh [ram_wr_driver] This is Driver run phase
+# UVM_INFO ../wr_agt_top/ram_wr_monitor.sv(51) @ 0: uvm_test_top.ram_envh.ram_wr_agt_th.agnth[0].monh [ram_wr_monitor] THIS IS MONITOR IN RUN
+# UVM_INFO ../wr_agt_top/ram_wr_driver.sv(59) @ 0: uvm_test_top.ram_envh.ram_wr_agt_th.agnth[0].drvh [ram_wr_driver] This is Driver run phase
 # 
 # --- UVM Report Summary ---
 # 
 # ** Report counts by severity
-# UVM_INFO :    4
+# UVM_INFO :    9
 # UVM_WARNING :    0
 # UVM_ERROR :    0
 # UVM_FATAL :    0
@@ -72,8 +103,10 @@
 # [Questa UVM]     2
 # [RNTST]     1
 # [UVMTOP]     1
+# [ram_wr_driver]     2
+# [ram_wr_monitor]     3
 # ** Note: $finish    : /home/cad/eda/Mentor_Graphics/Questasim/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
 #    Time: 0 ns  Iteration: 215  Instance: /top
 # Saving coverage database on exit...
-# End time: 22:16:39 on Jul 12,2025, Elapsed time: 0:00:03
+# End time: 21:17:05 on Jul 30,2025, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 2
